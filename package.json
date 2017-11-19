@@ -15,7 +15,9 @@
     "origindb": "^2.6.1",
     "request": "^2.82.0",
     "sockjs": "0.3.18",
-    "uuid": "^2.0.2"
+    "uuid": "^2.0.2",
+    "mongodb": "^2.3.33",
+    "gridfs": "^1.0.0"
   },
   "optionalDependencies": {
     "cloud-env": "0.2.2",
@@ -26,7 +28,7 @@
     "ofe": "0.5.1"
   },
   "engines": {
-    "node": ">=7.7.0"
+    "node": "8.7.0"
   },
   "scripts": {
     "start": "node pokemon-showdown",
