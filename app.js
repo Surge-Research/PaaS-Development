@@ -55,9 +55,11 @@ try {
 } catch (e) {
 	throw new Error("Dependencies are unmet; run node pokemon-showdown before launching Pokemon Showdown again.");
 }
-
-const FS = require('./fs');
+/* Modify Ps FS to GridFS */
+/* Use MongoDB to storage data */
+const FS = require('gridfs');
 const fs = require('fs');
+const mongo = require('mongodb')
 
 /*********************************************************
  * Load configuration
